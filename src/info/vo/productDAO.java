@@ -9,8 +9,7 @@ public class ProductDAO {
 		productList.add(vo);
 	}
 	
-	public ArrayList<ProductVO> select(){
+	public ArrayList<ProductVO> select() {
 		return productList;
 	}
-	
 }

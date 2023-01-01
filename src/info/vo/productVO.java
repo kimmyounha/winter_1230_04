@@ -5,13 +5,7 @@ public class ProductVO {
 	private int price;
 	private int productNum;
 	private int stockNum;
-	public ProductVO(String name, int price, int productNum, int stockNum) {
-		super();
-		this.name = name;
-		this.price = price;
-		this.productNum = productNum;	//제품번호
-		this.stockNum = stockNum;
-	}
+	
 	public String getName() {
 		return name;
 	}
@@ -24,6 +18,7 @@ public class ProductVO {
 	public void setPrice(int price) {
 		this.price = price;
 	}
+	
 	public int getProductNum() {
 		return productNum;
 	}
@@ -36,6 +31,4 @@ public class ProductVO {
 	public void setStockNum(int stockNum) {
 		this.stockNum = stockNum;
 	}	
-	
-	
 }
